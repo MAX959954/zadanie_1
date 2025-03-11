@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!--
-Tinker CSS Template
-https://templatemo.com/tm-506-tinker
--->
-        <title>Tinker CSS Template</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-        
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/hero-slider.css">
-        <link rel="stylesheet" href="css/owl-carousel.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <link rel="stylesheet" href="css/lightbox.css">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
+<?php 
+    include ('partials/header.php');
+?> 
 
 <body>
     <div class="header">
@@ -362,49 +338,10 @@ https://templatemo.com/tm-506-tinker
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7895.485196115994!2d103.85995441789784!3d1.2880401763270322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fb4e58ad9cd826e!2sSingapore+Flyer!5e0!3m2!1sen!2sth!4v1505825620371" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <div class="logo">
-                        <a class="logo-ft scroll-top" href="#"><em>T</em>inker</a>
-                        <p>Copyright &copy; 2020 Your Company 
-                       <br>Design: TemplateMo</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="location">
-                        <h4>Location</h4>
-                        <ul>
-                            <li>46 Raffles Ave, <br>Singapore 039803</li>
-                            <li>12 Republic Blvd, <br>Singapore 038975</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <div class="contact-info">
-                        <h4>More Info</h4>
-                        <ul>
-                            <li><em>Phone</em>: 040-040-0440</li>
-                            <li><em>Email</em>: tk@company.co</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <div class="connect-us">
-                        <h4>Get Social with us</h4>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php 
+        include ('partials/footer.php');
+
+    ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
